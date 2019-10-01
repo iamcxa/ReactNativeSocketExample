@@ -1,6 +1,6 @@
 # ReactNativeSocketExample
 
-A sample React-Native 0.60 + Node Socket implementation with `react-native-tcp` and `Nodeify`.
+A sample React-Native 0.60 + Node Socket implementation with `react-native-tcp` and `Nodeify`, using `net` as tco socket connector.
 
 ## Usage
 
@@ -8,9 +8,13 @@ A sample React-Native 0.60 + Node Socket implementation with `react-native-tcp` 
 # Installation
 $ yarn install
 
+# Deploy to device
 $ yarn run ios
 # or
 $ yarn run android
+
+# Start
+$ yarn start
 ```
 
 ### References
