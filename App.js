@@ -1,19 +1,9 @@
 import React from 'react';
-import {
-  TouchableOpacity,
-  StyleSheet,
-  SafeAreaView,
-  Button,
-  Text,
-  Alert,
-} from 'react-native';
+import {StyleSheet, SafeAreaView, Button, Text} from 'react-native';
 import net from 'net';
 
-// var net = require('net');
-
 const server = {
-  // host: '127.0.0.1',
-  host: '192.168.168.138',
+  host: '127.0.0.1',
   port: 3000,
 };
 
@@ -108,7 +98,6 @@ export default class App extends React.Component {
         <Text style={styles.content}>{data}</Text>
         <Text style={styles.title}>Error</Text>
         <Text style={styles.content}>{error}</Text>
-        <Text> </Text>
         <Button
           title="Send Data"
           style={styles.button}
